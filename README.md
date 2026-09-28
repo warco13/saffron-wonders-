@@ -1,9 +1,17 @@
-# Saffron Wonders landing page — clean final version
+# Saffron Wonders — continuous illustrated version
 
-This version deliberately removes the old side/banner fragments and uses only the clean Saffron Wonders brand lockup.
+This is the GitHub Pages version based on the approved continuous visual direction.
 
-Upload `index.html`, `style.css` and `brand-header.png` to the root of the existing GitHub repository, replacing the existing files.
+Upload **all files in this folder** to the root of the existing repository, replacing `index.html` and `style.css`.
 
-The old `botanical-left.png` and `botanical-right.png` can remain in GitHub: this version does not reference them.
+Required files:
+- index.html
+- style.css
+- emblem.jpg
+- wonder-garden.jpg
+- walden-landscape.jpg
+- contact-garden.jpg
 
-GitHub Pages will redeploy automatically.
+Old image files from previous versions can remain in the repository because this version does not reference them.
+
+The contact form submits to hello@saffronwonders.co.uk via FormSubmit. The first submission may require a one-time email confirmation.
