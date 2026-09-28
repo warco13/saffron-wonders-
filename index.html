@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Saffron Wonders is a community project helping make Saffron Walden even better for children and families.">
+  <title>Saffron Wonders | For local families, shaped by local families</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Saffron Wonders home">
+      <span class="mark" aria-hidden="true">✦</span>
+      <span>SAFFRON <b>WONDERS</b></span>
+    </a>
+    <a class="nav-link" href="#contact">Get in touch</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="leaf leaf-a">●</div><div class="leaf leaf-b">●</div><div class="leaf leaf-c">●</div>
+      <div class="hero-copy">
+        <p class="eyebrow">A community project for Saffron Walden</p>
+        <h1>Little ideas.<br><em>Big wonders.</em></h1>
+        <p class="intro">We’re bringing local families together to imagine—and help create—a Saffron Walden where children can play, explore, connect and thrive.</p>
+        <a class="button" href="#about">Discover Saffron Wonders <span>↓</span></a>
+      </div>
+      <div class="tree-art" aria-label="Colourful illustrated tree representing ideas growing from our community">
+        <div class="canopy">
+          <i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="blob b4"></i>
+          <i class="blob b5"></i><i class="blob b6"></i><i class="blob b7"></i><i class="blob b8"></i>
+        </div>
+        <div class="trunk"></div><div class="ground"></div>
+        <span class="spark s1">✦</span><span class="spark s2">✦</span><span class="spark s3">✦</span>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">What is Saffron Wonders?</p>
+      <h2>For local families.<br><span>Shaped by local families.</span></h2>
+      <p class="about-copy">Saffron Wonders is an independent community project born from a simple question: <strong>how can we make our town an even better place to grow up?</strong> We listen to children, parents and carers, connect people and ideas, and explore practical ways to make family life in Saffron Walden richer, easier and more connected.</p>
+
+      <div class="cards">
+        <article><span class="icon sun">☀</span><h3>Listen</h3><p>Creating simple ways for families and children to share what they love, need and wish our town had.</p></article>
+        <article><span class="icon sprout">♧</span><h3>Imagine</h3><p>Exploring ideas for spaces, activities and experiences that work for children of different ages.</p></article>
+        <article><span class="icon connect">✣</span><h3>Connect</h3><p>Making it easier for families to discover what’s already happening and connect with our local community.</p></article>
+        <article><span class="icon star">★</span><h3>Make it happen</h3><p>Working with local people and organisations to turn the strongest community ideas into something real.</p></article>
+      </div>
+    </section>
+
+    <section class="ideas">
+      <div>
+        <p class="eyebrow">Growing together</p>
+        <h2>What could we create?</h2>
+        <p>We’re exploring ideas inspired by conversations with local families—from welcoming places for different ages to meet and play, to new activities, outdoor experiences and simpler ways to find out what’s on.</p>
+        <p class="soft">Saffron Wonders is at an early stage. That’s intentional: the project should grow around what our community actually wants.</p>
+      </div>
+      <div class="idea-cloud" aria-hidden="true">
+        <span>PLAY</span><span>CREATE</span><span>EXPLORE</span><span>MEET</span><span>DISCOVER</span><span>GROW</span>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Say hello</p>
+        <h2>Have an idea?<br><span>We’d love to hear it.</span></h2>
+        <p>Are you a parent, carer, local organisation—or simply someone with an idea for children and families in Saffron Walden? Send us a note.</p>
+        <a href="mailto:hello@saffronwonders.co.uk">hello@saffronwonders.co.uk</a>
+      </div>
+
+      <form class="contact-form" action="https://formsubmit.co/hello@saffronwonders.co.uk" method="POST">
+        <input type="hidden" name="_subject" value="New message from Saffron Wonders website">
+        <input type="hidden" name="_captcha" value="false">
+        <label>Your name<input name="name" type="text" required placeholder="Your name"></label>
+        <label>Email address<input name="email" type="email" required placeholder="you@example.com"></label>
+        <label>Your message<textarea name="message" rows="5" required placeholder="Tell us your idea, question or how you'd like to get involved…"></textarea></label>
+        <button type="submit">Send message <span>→</span></button>
+        <p class="form-note">By sending this form, your message will be emailed to Saffron Wonders.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="mark">✦</span><span>SAFFRON <b>WONDERS</b></span></a>
+    <p>Made with curiosity in Saffron Walden · <span id="year"></span></p>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
