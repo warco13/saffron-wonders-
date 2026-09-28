@@ -1,11 +1,9 @@
-# Saffron Wonders landing page — mobile-first branded version
+# Saffron Wonders landing page — clean final version
 
-This version is rebuilt mobile-first around the supplied Saffron Wonders flyer / roller-banner identity.
+This version deliberately removes the old side/banner fragments and uses only the clean Saffron Wonders brand lockup.
 
-## Replace the current GitHub Pages site
-Upload every file in this folder to the root of the existing repository and replace files when GitHub asks.
+Upload `index.html`, `style.css` and `brand-header.png` to the root of the existing GitHub repository, replacing the existing files.
 
-GitHub Pages should redeploy automatically.
+The old `botanical-left.png` and `botanical-right.png` can remain in GitHub: this version does not reference them.
 
-## Contact form
-The form sends to hello@saffronwonders.co.uk through FormSubmit. The first submission may trigger a one-time activation email.
+GitHub Pages will redeploy automatically.
